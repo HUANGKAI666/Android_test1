@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/LianTi"
+        android:orderInCategory="1"
+        android:title="练题模式"
+
+        app:showAsAction="always"
+        >
+
+        </item>
+    <item
+        android:id="@+id/BeiTi"
+        android:title="背题模式"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        >
+
+
+
+    </item>
+
+
+</menu>

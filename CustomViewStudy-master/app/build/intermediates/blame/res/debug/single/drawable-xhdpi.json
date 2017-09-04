@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vol_03.png",
+        "source": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\src\\main\\res\\drawable-xhdpi\\vol_03.png"
+    },
+    {
+        "merged": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\custom_img.png",
+        "source": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\src\\main\\res\\drawable-xhdpi\\custom_img.png"
+    },
+    {
+        "merged": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vol_02.png",
+        "source": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\src\\main\\res\\drawable-xhdpi\\vol_02.png"
+    },
+    {
+        "merged": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vol_01.png",
+        "source": "E:\\Androidstudio_work\\CustomViewStudy-master\\app\\src\\main\\res\\drawable-xhdpi\\vol_01.png"
+    }
+]

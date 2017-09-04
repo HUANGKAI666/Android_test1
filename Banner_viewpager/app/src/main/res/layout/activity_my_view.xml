@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyViewActivity">
+    <test.hk.banner_viewpager.MyView
+        android:id="@+id/mybutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:mybackground="@color/colorAccent"
+        app:mytextcolor="@color/colorPrimary"
+        app:mytextsize="20px"
+        app:mytext="按钮"
+        >
+    </test.hk.banner_viewpager.MyView>
+
+
+
+</RelativeLayout>

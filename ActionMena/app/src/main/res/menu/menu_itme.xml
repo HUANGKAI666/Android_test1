@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+    <item
+        android:id="@+id/itme1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="hhhhhh"
+        android:visible="true" />
+    <item
+        android:id="@+id/itme2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="hhhhhh"
+        />
+    <item
+        android:id="@+id/itme3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="hhhhhh"
+        />
+
+</menu>

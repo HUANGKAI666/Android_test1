@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.hk.com.KkDriving.ui.Main2Activity">
+    <LinearLayout
+        android:id="@+id/id_toolbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/id_back"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/fanhui"/>
+
+        <TextView
+            android:id="@+id/id_LT"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            android:text="练题模式" />
+        <TextView
+            android:id="@+id/id_BT"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            android:text="背题模式" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/id_view"
+        android:background="@color/hui"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_height="2dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/lin_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/id_view"
+            android:layout_alignParentStart="true">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/id_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+<ImageView
+    android:background="@color/hui"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/id_viewpager"
+    android:layout_above="@+id/id_Bottom"
+    android:layout_height="2dp"/>
+    <LinearLayout
+
+        android:id="@+id/id_Bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <ImageView
+            android:id="@+id/id_right_img"
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/right" />
+
+        <TextView
+            android:id="@+id/id_right_tv"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+/>
+
+        <ImageView
+            android:id="@+id/id_wrong_img"
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/wrong" />
+
+        <TextView
+            android:id="@+id/id_wrong_tv"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="@color/red"
+           />
+        <ImageView
+            android:id="@+id/id_count_img"
+            android:layout_width="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/caidan" />
+
+        <TextView
+            android:id="@+id/id_count1_tv"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/blank"
+            android:textStyle="bold"
+            android:text="0"
+             />
+        <TextView
+            android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            android:layout_weight="1"
+        android:text="/" />
+
+        <TextView
+        android:id="@+id/id_count2_tv"
+            android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+            android:text="0"
+       />
+
+    </LinearLayout>
+
+</RelativeLayout>
